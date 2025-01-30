@@ -27,3 +27,14 @@
 1. Clone the repository:  
    ```sh
    git clone https://github.com/SRHridoy/K_Map_Solver.git
+
+
+🔥 Future Enhancements
+✅ Add 4-variable K-Map solver
+✅ Support Don't Care conditions
+✅ Improve UI for better visualization
+
+👨‍💻 Developed by Md. Sohanur Rahman Hridoy
+💬 Let’s connect and collaborate!
+
+#Java #Android #KMapSolver #BooleanAlgebra #DigitalLogic #ComputerScience
