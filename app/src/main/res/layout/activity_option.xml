@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp"
+    android:background="#FFFFFE"
+    tools:context=".OptionActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/border"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textView"
+            android:textColor="@color/black"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/heading_shape_bg"
+            android:text="Select Variable : "
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:gravity="center"
+            android:textSize="25sp"
+            />
+
+        <Button
+            android:id="@+id/btn_2_var"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:padding="10dp"
+            android:layout_marginBottom="5dp"
+            android:backgroundTint="#00C853"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2-Variable" />
+
+        <Button
+            android:id="@+id/btn_3_var"
+            style="@style/TextAppearance.AppCompat.Widget.Button.Colored"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:backgroundTint="#00C853"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3-Variable" />
+
+        <Button
+            android:id="@+id/btn_4_var"
+            android:backgroundTint="#00C853"
+            style="@style/TextAppearance.AppCompat.Widget.Button.Colored"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4-variable" />
+    </LinearLayout>
+
+</LinearLayout>

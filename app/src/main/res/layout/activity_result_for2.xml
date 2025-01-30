@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFE"
+    android:padding="12dp"
+    tools:context=".for_3_var.ResultFor3Activity">
+    <TextView
+        android:id="@+id/txt_truth_table"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:text="Truth Table :"
+        android:padding="10dp"
+        android:textSize="23sp"
+        android:textColor="#0B0B0B"
+        android:textStyle="bold"
+        />
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/border_for_truth_table"
+        >
+        <TableRow>
+            <TextView
+                android:text="A"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:background="@drawable/bg_for_head"
+                android:padding="20dip" />
+            <TextView
+                android:text="B"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:background="@drawable/bg_for_head"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                android:padding="20dip" />
+            <TextView
+                android:text="Output"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:background="@drawable/bg_for_head"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                android:padding="20dip" />
+
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="0"
+                android:layout_margin="1dp"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:background="@drawable/bg_for_elements"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:padding="20dip" />
+            <TextView
+                android:text="0"
+                android:textStyle="bold"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_for_elements"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:padding="20dip" />
+            <TextView
+                android:id="@+id/output1"
+                android:text=""
+                android:textStyle="bold"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_for_elements"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:padding="20dip" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="0"
+                android:textStyle="bold"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_for_elements"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:padding="20dip" />
+            <TextView
+                android:text="1"
+                android:textStyle="bold"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_for_elements"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:padding="20dip" />
+            <TextView
+                android:id="@+id/output2"
+                android:text=""
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:background="@drawable/bg_for_elements"
+                android:gravity="center"
+                android:layout_margin="1dp"
+                android:textColor="@color/white"
+                android:padding="20dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:text="1"
+                android:layout_margin="1dp"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:background="@drawable/bg_for_elements"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:padding="20dip" />
+            <TextView
+                android:text="0"
+                android:textStyle="bold"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_for_elements"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:padding="20dip" />
+            <TextView
+                android:id="@+id/output3"
+                android:text=""
+                android:textStyle="bold"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_for_elements"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:padding="20dip" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="1"
+                android:textStyle="bold"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_for_elements"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:padding="20dip" />
+            <TextView
+                android:text="1"
+                android:textStyle="bold"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_for_elements"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:padding="20dip" />
+            <TextView
+                android:id="@+id/output4"
+                android:text=""
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:background="@drawable/bg_for_elements"
+                android:gravity="center"
+                android:layout_margin="1dp"
+                android:textColor="@color/white"
+                android:padding="20dip" />
+        </TableRow>
+
+
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/txt_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="The Simplified form Using K-Map is = "
+        android:layout_marginTop="15dp"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:textColor="#009C41"
+        android:padding="10dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="160dp"
+        android:text="\@SRHridoy"
+        android:textSize="10sp" />
+</LinearLayout>
