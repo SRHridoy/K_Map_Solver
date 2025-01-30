@@ -26,4 +26,4 @@
 ## 🚀 Installation  
 1. Clone the repository:  
    ```sh
-   git clone https://github.com/SRHridoy/K-Map-Solver.git
+   git clone https://github.com/SRHridoy/K_Map_Solver.git
